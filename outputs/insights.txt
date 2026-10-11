@@ -1,0 +1,84 @@
+=== KPIs ===
+total_orders: 55,000.00
+total_revenue: 1,078,032,046.46
+aov: 19,600.58
+unique_customers: 10,928.00
+repeat_rate: 0.99
+avg_discount: 5.15
+
+=== Revenue by Category ===
+                           sum  count          mean
+product_category                                   
+Electronics       7.291307e+08  13953  52256.193887
+Home & Kitchen    1.738366e+08   9896  17566.353634
+Clothing          7.041153e+07  11915   5909.486520
+Sports            6.731101e+07   7153   9410.178478
+Beauty            2.744517e+07   6578   4172.266624
+Books             9.897029e+06   5505   1797.825470
+
+=== Revenue by Region ===
+                  sum  count          mean
+region                                    
+North    2.687564e+08  13828  19435.665237
+East     2.216352e+08  10910  20314.871300
+West     2.133996e+08  10964  19463.662605
+South    2.117224e+08  11092  19087.847114
+Central  1.625184e+08   8206  19804.828746
+
+=== Revenue by Channel ===
+sales_channel
+Online          4.411052e+08
+Retail Store    2.664739e+08
+Mobile App      2.110130e+08
+Marketplace     1.594399e+08
+
+=== Segment behavior ===
+                       revenue  orders  repeat_rate
+customer_segment                                   
+Corporate         1.621818e+08    8120     0.993596
+New               3.797960e+08   19415     0.992944
+Premium           1.575789e+08    8124     0.993476
+Regular           3.784753e+08   19341     0.993951
+
+=== Discount effectiveness (0=full price,1=discounted) ===
+                    mean  count           sum
+discounted                                   
+0           20688.072825  33109  6.849614e+08
+1           17955.810301  21891  3.930706e+08
+
+=== Last 12 months ===
+                     sum  count
+order_month                    
+2024-01      32992173.19   1587
+2024-02      28609132.65   1474
+2024-03      31755262.81   1600
+2024-04      28732246.17   1450
+2024-05      31154885.39   1626
+2024-06      27184949.04   1465
+2024-07      27619944.71   1572
+2024-08      31727401.92   1548
+2024-09      28420968.23   1512
+2024-10      31998637.10   1580
+2024-11      30488289.78   1508
+2024-12      31380904.14   1459
+
+=== Top 10 products by revenue ===
+product_category  product_name     
+Electronics       Laptop Stand         1.501775e+08
+                  Smartwatch           1.462276e+08
+                  Bluetooth Speaker    1.453140e+08
+                  Headphones           1.438881e+08
+                  USB-C Hub            1.435235e+08
+Home & Kitchen    Bedsheet Set         3.585491e+07
+                  Coffee Maker         3.554321e+07
+                  Lamp                 3.519476e+07
+                  Cookware Set         3.387333e+07
+                  Air Fryer            3.337043e+07
+
+=== Correlation ===
+              quantity  unit_price  discount_pct  total_amount  age
+quantity          1.00        0.01          0.00          0.38  0.0
+unit_price        0.01        1.00          0.00          0.80 -0.0
+discount_pct      0.00        0.00          1.00         -0.05  0.0
+total_amount      0.38        0.80         -0.05          1.00 -0.0
+age               0.00       -0.00          0.00         -0.00  1.0
