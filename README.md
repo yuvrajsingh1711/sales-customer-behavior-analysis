@@ -20,6 +20,18 @@ python src/analyze.py
 # optional: load data/sales_cleaned.csv into Tableau, or run sql/queries.sql in Postgres/SQLite
 ```
 
+## Tableau Dashboards
+
+> Tableau Public link: <!-- TODO: publish link yaha add karo -->
+
+| Dashboard | Preview | Focus |
+|---|---|---|
+| D1 Executive Overview | ![D1](tableau/D1_Executive_Overview.png) | KPIs, monthly trend, category/region bars |
+| D2 Customer Behavior | ![D2](tableau/D2_Customer_Behavior.png) | Segment donut, repeat by age, top products, scatter |
+| D3 Discount & Efficiency | ![D3](tableau/D3_Discount_Efficiency.png) | Full-price vs discounted AOV, region x channel heatmap |
+
+Build guide (Hinglish): [`tableau/README.md`](tableau/README.md). Data: `data/sales_cleaned.csv` ko Tableau Public me Text File se kholo (55,000 rows).
+
 ## Resume bullets (copy-ready)
 - Developed a complete data pipeline using Python (Pandas, NumPy) to clean, process, and analyze 55,000+ sales records (deduplication, imputation, outlier handling, feature engineering)
 - Created interactive Tableau dashboards visualizing revenue trends, segmentation, and channel performance; identified trends informing ~15% efficiency gains
